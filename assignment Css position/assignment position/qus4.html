@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            height: 100vh;
+            width: 100vw;
+            overflow-x: hidden;
+            overflow-y: scroll;
+            scroll-snap-type: y mandatory;
+            
+            
+
+        }
+        nav {
+            background-color: rgb(37, 36, 36);
+            width: 100%;
+            height: 80px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+
+            
+        }
+        ul {
+            list-style-type: none;
+            display: flex;
+            text-align: center;
+            gap: 30px;
+
+
+        }
+        h2 {
+            color: white;
+        }
+        a {
+            text-decoration: none;
+            color: rgb(50, 50, 50);
+
+        }
+        .active {
+            color: white;
+        }
+        button {
+            border: 2px solid rgb(112, 107, 17);
+            color:  rgb(112, 107, 17);
+            border-radius: 20px;
+            
+        }
+        section {
+            padding: 15px;
+        }
+        .content_info {
+            width: 100%;
+            height: 100%;
+           
+        }
+        
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <h2>LOGO</h2>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Terms And Condition</a></li>
+                <button>Get started</button>
+            </ul>
+        </nav>
+        <div class="content_info">
+            <section>
+                <h1>Heading 1</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dicta tenetur quam ad dolore neque reiciendis tempore? Reiciendis sed suscipit harum cumque magnam tempora assumenda dignissimos ratione porro, tenetur, beatae ducimus labore totam commodi autem et vitae explicabo? Quibusdam soluta obcaecati sunt quisquam odit mollitia, id distinctio eius beatae aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint distinctio molestias voluptate quam laboriosam inventore qui. Reiciendis maiores soluta nobis sint hic ipsum, aliquid, cumque consectetur iure iusto nemo! Quidem fugit aliquid cum minus et repellendus ducimus debitis porro iure distinctio doloribus, quos qui mollitia enim eveniet earum temporibus quam nam eligendi excepturi esse. Doloremque obcaecati, labore consectetur optio ipsa dolore quo quos ex. Eveniet odit tempore reiciendis aspernatur, assumenda ipsam iusto laudantium ex in, nisi ea quibusdam aut. Accusantium dignissimos repellat quasi facere, ipsam amet accusamus repudiandae. Necessitatibus maiores eius perspiciatis, laboriosam sed ullam numquam amet omnis quae ipsum!</p>
+            </section>
+            <section>
+                <h1>Heading 2</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dicta tenetur quam ad dolore neque reiciendis tempore? Reiciendis sed suscipit harum cumque magnam tempora assumenda dignissimos ratione porro, tenetur, beatae ducimus labore totam commodi autem et vitae explicabo? Quibusdam soluta obcaecati sunt quisquam odit mollitia, id distinctio eius beatae aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint distinctio molestias voluptate quam laboriosam inventore qui. Reiciendis maiores soluta nobis sint hic ipsum, aliquid, cumque consectetur iure iusto nemo! Quidem fugit aliquid cum minus et repellendus ducimus debitis porro iure distinctio doloribus, quos qui mollitia enim eveniet earum temporibus quam nam eligendi excepturi esse. Doloremque obcaecati, labore consectetur optio ipsa dolore quo quos ex. Eveniet odit tempore reiciendis aspernatur, assumenda ipsam iusto laudantium ex in, nisi ea quibusdam aut. Accusantium dignissimos repellat quasi facere, ipsam amet accusamus repudiandae. Necessitatibus maiores eius perspiciatis, laboriosam sed ullam numquam amet omnis quae ipsum! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio quis excepturi harum recusandae quas, fuga facilis est nesciunt at repellendus tempora omnis doloremque dolor temporibus labore cumque ex saepe numquam officia. Similique dolores neque sed ipsum tempore accusamus sequi, corrupti quisquam dicta quos? Excepturi enim accusamus provident. Impedit incidunt cumque, praesentium fugiat veritatis modi unde, aut illum at necessitatibus distinctio tenetur, libero laborum consequuntur deserunt obcaecati inventore asperiores illo nisi quae! Sequi corrupti dolor dolorum tenetur magni dolore repellat maxime rem, ullam alias ut aperiam numquam modi similique labore laboriosam sit qui voluptates, libero consequuntur cumque! Quod quo quos et asperiores mollitia rem cumque eveniet similique, quia eaque doloribus consectetur, aut architecto quaerat ut? Nisi modi officiis maiores quidem dolorem. Deserunt magnam nesciunt asperiores accusantium doloribus dolore vero numquam aut. Sed quidem tempore, in aspernatur commodi magnam temporibus aperiam repellat laboriosam qui libero quos necessitatibus laudantium, ut facere eum quasi.</p>
+            </section>
+            <section>
+                <h1>Heading 3</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dicta tenetur quam ad dolore neque reiciendis tempore? Reiciendis sed suscipit harum cumque magnam tempora assumenda dignissimos ratione porro, tenetur, beatae ducimus labore totam commodi autem et vitae explicabo? Quibusdam soluta obcaecati sunt quisquam odit mollitia, id distinctio eius beatae aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint distinctio molestias voluptate quam laboriosam inventore qui. Reiciendis maiores soluta nobis sint hic ipsum, aliquid, cumque consectetur iure iusto nemo! Quidem fugit aliquid cum minus et repellendus ducimus debitis porro iure distinctio doloribus, quos qui mollitia enim eveniet earum temporibus quam nam eligendi excepturi esse. Doloremque obcaecati, labore consectetur optio ipsa dolore quo quos ex. Eveniet odit tempore reiciendis aspernatur, assumenda ipsam iusto laudantium ex in, nisi ea quibusdam aut. Accusantium dignissimos repellat quasi facere, ipsam amet accusamus repudiandae. Necessitatibus maiores eius perspiciatis, laboriosam sed ullam numquam amet omnis quae ipsum! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio quis excepturi harum recusandae quas, fuga facilis est nesciunt at repellendus tempora omnis doloremque dolor temporibus labore cumque ex saepe numquam officia. Similique dolores neque sed ipsum tempore accusamus sequi, corrupti quisquam dicta quos? Excepturi enim accusamus provident. Impedit incidunt cumque, praesentium fugiat veritatis modi unde, aut illum at necessitatibus distinctio tenetur, libero laborum consequuntur deserunt obcaecati inventore asperiores illo nisi quae! Sequi corrupti dolor dolorum tenetur magni dolore repellat maxime rem, ullam alias ut aperiam numquam modi similique labore laboriosam sit qui voluptates, libero consequuntur cumque! Quod quo quos et asperiores mollitia rem cumque eveniet similique, quia eaque doloribus consectetur, aut architecto quaerat ut? Nisi modi officiis maiores quidem dolorem. Deserunt magnam nesciunt asperiores accusantium doloribus dolore vero numquam aut. Sed quidem tempore, in aspernatur commodi magnam temporibus aperiam repellat laboriosam qui libero quos necessitatibus laudantium, ut facere eum quasi.</p>
+            </section>
+            <section>
+                <h1>Heading 4</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dicta tenetur quam ad dolore neque reiciendis tempore? Reiciendis sed suscipit harum cumque magnam tempora assumenda dignissimos ratione porro, tenetur, beatae ducimus labore totam commodi autem et vitae explicabo? Quibusdam soluta obcaecati sunt quisquam odit mollitia, id distinctio eius beatae aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint distinctio molestias voluptate quam laboriosam inventore qui. Reiciendis maiores soluta nobis sint hic ipsum, aliquid, cumque consectetur iure iusto nemo! Quidem fugit aliquid cum minus et repellendus ducimus debitis porro iure distinctio doloribus, quos qui mollitia enim eveniet earum temporibus quam nam eligendi excepturi esse. Doloremque obcaecati, labore consectetur optio ipsa dolore quo quos ex. Eveniet odit tempore reiciendis aspernatur, assumenda ipsam iusto laudantium ex in, nisi ea quibusdam aut. Accusantium dignissimos repellat quasi facere, ipsam amet accusamus repudiandae. Necessitatibus maiores eius perspiciatis, laboriosam sed ullam numquam amet omnis quae ipsum! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio quis excepturi harum recusandae quas, fuga facilis est nesciunt at repellendus tempora omnis doloremque dolor temporibus labore cumque ex saepe numquam officia. Similique dolores neque sed ipsum tempore accusamus sequi, corrupti quisquam dicta quos? Excepturi enim accusamus provident. Impedit incidunt cumque, praesentium fugiat veritatis modi unde, aut illum at necessitatibus distinctio tenetur, libero laborum consequuntur deserunt obcaecati inventore asperiores illo nisi quae! Sequi corrupti dolor dolorum tenetur magni dolore repellat maxime rem, ullam alias ut aperiam numquam modi similique labore laboriosam sit qui voluptates, libero consequuntur cumque! Quod quo quos et asperiores mollitia rem cumque eveniet similique, quia eaque doloribus consectetur, aut architecto quaerat ut? Nisi modi officiis maiores quidem dolorem. Deserunt magnam nesciunt asperiores accusantium doloribus dolore vero numquam aut. Sed quidem tempore, in aspernatur commodi magnam temporibus aperiam repellat laboriosam qui libero quos necessitatibus laudantium, ut facere eum quasi.</p>
+            </section>
+            <section>
+                <h1>Heading 5</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dicta tenetur quam ad dolore neque reiciendis tempore? Reiciendis sed suscipit harum cumque magnam tempora assumenda dignissimos ratione porro, tenetur, beatae ducimus labore totam commodi autem et vitae explicabo? Quibusdam soluta obcaecati sunt quisquam odit mollitia, id distinctio eius beatae aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint distinctio molestias voluptate quam laboriosam inventore qui. Reiciendis maiores soluta nobis sint hic ipsum, aliquid, cumque consectetur iure iusto nemo! Quidem fugit aliquid cum minus et repellendus ducimus debitis porro iure distinctio doloribus, quos qui mollitia enim eveniet earum temporibus quam nam eligendi excepturi esse. Doloremque obcaecati, labore consectetur optio ipsa dolore quo quos ex. Eveniet odit tempore reiciendis aspernatur, assumenda ipsam iusto laudantium ex in, nisi ea quibusdam aut. Accusantium dignissimos repellat quasi facere, ipsam amet accusamus repudiandae. Necessitatibus maiores eius perspiciatis, laboriosam sed ullam numquam amet omnis quae ipsum! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio quis excepturi harum recusandae quas, fuga facilis est nesciunt at repellendus tempora omnis doloremque dolor temporibus labore cumque ex saepe numquam officia. Similique dolores neque sed ipsum tempore accusamus sequi, corrupti quisquam dicta quos? Excepturi enim accusamus provident. Impedit incidunt cumque, praesentium fugiat veritatis modi unde, aut illum at necessitatibus distinctio tenetur, libero laborum consequuntur deserunt obcaecati inventore asperiores illo nisi quae! Sequi corrupti dolor dolorum tenetur magni dolore repellat maxime rem, ullam alias ut aperiam numquam modi similique labore laboriosam sit qui voluptates, libero consequuntur cumque! Quod quo quos et asperiores mollitia rem cumque eveniet similique, quia eaque doloribus consectetur, aut architecto quaerat ut? Nisi modi officiis maiores quidem dolorem. Deserunt magnam nesciunt asperiores accusantium doloribus dolore vero numquam aut. Sed quidem tempore, in aspernatur commodi magnam temporibus aperiam repellat laboriosam qui libero quos necessitatibus laudantium, ut facere eum quasi.</p>
+            </section>
+            <section>
+                <h1>Heading 6</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dicta tenetur quam ad dolore neque reiciendis tempore? Reiciendis sed suscipit harum cumque magnam tempora assumenda dignissimos ratione porro, tenetur, beatae ducimus labore totam commodi autem et vitae explicabo? Quibusdam soluta obcaecati sunt quisquam odit mollitia, id distinctio eius beatae aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint distinctio molestias voluptate quam laboriosam inventore qui. Reiciendis maiores soluta nobis sint hic ipsum, aliquid, cumque consectetur iure iusto nemo! Quidem fugit aliquid cum minus et repellendus ducimus debitis porro iure distinctio doloribus, quos qui mollitia enim eveniet earum temporibus quam nam eligendi excepturi esse. Doloremque obcaecati, labore consectetur optio ipsa dolore quo quos ex. Eveniet odit tempore reiciendis aspernatur, assumenda ipsam iusto laudantium ex in, nisi ea quibusdam aut. Accusantium dignissimos repellat quasi facere, ipsam amet accusamus repudiandae. Necessitatibus maiores eius perspiciatis, laboriosam sed ullam numquam amet omnis quae ipsum! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio quis excepturi harum recusandae quas, fuga facilis est nesciunt at repellendus tempora omnis doloremque dolor temporibus labore cumque ex saepe numquam officia. Similique dolores neque sed ipsum tempore accusamus sequi, corrupti quisquam dicta quos? Excepturi enim accusamus provident. Impedit incidunt cumque, praesentium fugiat veritatis modi unde, aut illum at necessitatibus distinctio tenetur, libero laborum consequuntur deserunt obcaecati inventore asperiores illo nisi quae! Sequi corrupti dolor dolorum tenetur magni dolore repellat maxime rem, ullam alias ut aperiam numquam modi similique labore laboriosam sit qui voluptates, libero consequuntur cumque! Quod quo quos et asperiores mollitia rem cumque eveniet similique, quia eaque doloribus consectetur, aut architecto quaerat ut? Nisi modi officiis maiores quidem dolorem. Deserunt magnam nesciunt asperiores accusantium doloribus dolore vero numquam aut. Sed quidem tempore, in aspernatur commodi magnam temporibus aperiam repellat laboriosam qui libero quos necessitatibus laudantium, ut facere eum quasi.</p>
+            </section>
+    
+        </div>
+    </div>
+</body>
+</html>
